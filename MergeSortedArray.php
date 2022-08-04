@@ -5,7 +5,7 @@ You are given two integer arrays nums1 and nums2, sorted in non-decreasing order
  representing the number of elements in nums1 and nums2 respectively.
  */
 class MergeSortedArray{
-    function merge(&$numbers1, $m, $numbers2, $n) {
+    function merge(&$numbers1, $m, $numbers2, $n):array {
            $indexNumber1 = $m-1;
            $indexNumber2 = $n-1;
            $indexNewArray = $m + $n -1;

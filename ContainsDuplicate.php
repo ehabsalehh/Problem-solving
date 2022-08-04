@@ -4,7 +4,7 @@ class ContainsDuplicate {
     Given an integer array nums, return true if any value appears at least twice in the array,
     and return false if every element is distinct.
     */
-    function containsDuplicate( array $numbers) {
+    function containsDuplicate( array $numbers):bool {
         sort($numbers);
         $count = count($numbers);
         for($i =0;$i<$count-1; $i++){

@@ -3,7 +3,7 @@
      which has the largest sum and return its sum.
 */
 class MaxSubArray {
-    function maxSubArray( array $numbers) {
+    function maxSubArray( array $numbers):int {
         $maxSoFar = PHP_INT_MIN; 
         $maxEndingHere = 0;
         $size = count($numbers);

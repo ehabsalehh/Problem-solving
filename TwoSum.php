@@ -3,7 +3,7 @@
   return indices of the two numbers such that they add up to target
 */
 class TwoSum {
-    function twoSum( array $numbers,int $target) {
+    function twoSum( array $numbers,int $target):array {
         $size = count($numbers);
         $map =[];
         $result = []; 
